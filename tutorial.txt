@@ -1,0 +1,9 @@
+1: instalar o package.json npm init -y
+
+2: instalar o mongoose, express
+
+3: criar main index.js e importar modulos e define portas do server
+
+4: criar models/serie.js com o modelo de criação dinâmica
+
+5: criar routes/series.js com as roats de series 

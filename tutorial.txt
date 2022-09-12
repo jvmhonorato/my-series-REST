@@ -1,9 +1,13 @@
 1: instalar o package.json npm init -y
 
-2: instalar o mongoose, express
+2: instalar o mongoose, express, body-parser
 
 3: criar main index.js e importar modulos e define portas do server
 
 4: criar models/serie.js com o modelo de criação dinâmica
 
-5: criar routes/series.js com as roats de series 
+5: criar routes/series.js com as routes de series 
+
+6: body-parser foi atualizado enstanciar ele em  jsonParser e adicionar a depois da rota na função
+
+7: dessa forma no insomina fazer o CRUD  do sistema

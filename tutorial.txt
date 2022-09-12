@@ -1,6 +1,6 @@
 1: instalar o package.json npm init -y
 
-2: instalar o mongoose, express, body-parser
+2: instalar o mongoose, express, body-parser, jsonwebtoken
 
 3: criar main index.js e importar modulos e define portas do server
 
@@ -11,3 +11,9 @@
 6: body-parser foi atualizado enstanciar ele em  jsonParser e adicionar a depois da rota na função
 
 7: dessa forma no insomina fazer o CRUD  do sistema
+
+8: criar o models/user.js em seguida criar função pra criar usuário e chamr ela no servidor
+
+9: em main index.js criar chamda de criação de users e por condicional pra criação caso não haja createInitialUsers
+
+10: em seguida criar metodo post pra rota auth com condicionais  de autenticação apos instalar e importar o jwt

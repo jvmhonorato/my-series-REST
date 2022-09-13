@@ -4,6 +4,7 @@ const port = process.env.MONGO || 3000
 const mongo = process.env.MONGO || 'mongodb://localhost/my-series-rest'
 const mongoose = require('mongoose')
 const series = require('./routes/series')
+const users = require('./routes/users')
 const bodyParser = require('body-parser')
 const User = require('./models/user')
 const jwt = require('jsonwebtoken')
@@ -12,6 +13,7 @@ mongoose.Promise = global.Promise
 
 //LET THE CONTENT FROM SERIES INTO THE ROUTE "/series"
 app.use('/series', series)
+app.use('/users', users)
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 

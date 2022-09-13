@@ -17,3 +17,5 @@
 9: em main index.js criar chamda de criação de users e por condicional pra criação caso não haja createInitialUsers
 
 10: em seguida criar metodo post pra rota auth com condicionais  de autenticação apos instalar e importar o jwt
+
+11: criar routes/user.js copia conteudo de serie.js e modificar pra caber em user assim crimaos e importamos pra mains index.js a route users depois testamos no insominia a chamda GET /users com o token pra ver seretorna
